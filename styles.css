@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Montserrat;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 20vh;
+    max-height: 125px;
+    align-items: center;
+}
+
+.firstSection h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 40px;
+    left: 08%;
+}
+
+.firstSection ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: 100;
+}
+.firstSection li:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    font-weight: 800;
+}
+/* ul li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+} */
+
+.menu {
+    width: 40%;
+    display: flex;
+}
+
+.secondSection {
+    width: 100%;
+    position: relative;
+}
+
+.secondSection img {
+    width: 100%;
+}
+
+.secondSection h2 {
+    width: fit-content;
+    position: absolute;
+    top: 38%;
+    left: 08%;
+    font-size: 4vw;
+    font-weight: 800;
+    color: white;
+
+}
+/* ABAIXO DAQUI NOVO*/
+.secondSection a{
+    position: absolute;
+    top: 60%;
+    left: 08%;
+    font-weight: 100;
+    font-size: 1.9vw;
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* ACIMA DAQUI NOVO*/
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1920px;
+    justify-content: center;
+}
+
+.containerImages {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.containerImages figure {
+    position: relative;
+    display: flex;
+    width: 20%;
+    margin: 0.5% 0.5%;
+    overflow: hidden;
+}
+
+.containerImages img {
+    width: 100%;
+}
+.containerImages img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    transition: all .7s;
+}
+/* até aqui ta certo */
+.footer {
+    width: 40%;
+    display: flex;
+
+}
+
+footer section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    height: 20vh;
+    max-height: 126px;
+    align-items: center;
+    background-color: #F2F4F4;
+}
+
+.redesSociais {
+    display: flex;
+    position: absolute;
+    gap: 35px;
+    left: 08%;
+}
+.redesSociais img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+}
+
+section h4 {
+    display: flex;
+    position: relative;
+    gap: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    left: 35%;
+    font-size: 20px;
+}
+
+section p {
+    position: relative;
+    font-weight: 300;
+    font-size: 13px;
+    left: 38%;
+    width: 30%;
+}
